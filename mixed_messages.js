@@ -1,0 +1,5 @@
+const start = ["A wise man once said", "I once read", "deep in egypt i found a note that said", "A young boy once approached me on the street, he said", "I once found a bird carrying a note, it said", "I found a secret ruin, scribed on the wall was a note that said"];
+const middle =["good things will come if you continue this path", "never give up on your jurney", "do what makes you happy", "never give up", "you are currently on your path to destiny", "what you are doing right now will change your life forever", "dont overthink what you are doing", "dont think, just do it"];
+const end = ["you shouldent give up", "you should do it", "you are better than them", "you will succeed", "this will work", "what your doing matters", "you cant give up", "you should just do it", "youre right", "youre different", "it will get better", "youre almost there", "youre so close", "you only need to go a bit further"];
+const getMessage= list => list[Math.floor(Math.random()*list.length)];
+console.log(`${getMessage(start)}, ${getMessage(middle)}. And that is why ${getMessage(end)}`);
